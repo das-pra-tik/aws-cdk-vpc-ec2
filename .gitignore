@@ -159,6 +159,8 @@ coverage/
 cdk.context.json
 .cdk.staging/
 cdk.out/
+tests/
+tests/*
 
 *.swp
 package-lock.json
