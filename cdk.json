@@ -15,6 +15,14 @@
     ]
   },
   "context": {
+    "Network": {
+      "region": "us-east-2",
+      "account": "502433561161",
+      "vpc_cidr": "10.50.80.0/24",
+      "cidr_mask": 27,
+      "logical_id": "MyCDKVpc",
+      "max_AZs": 2
+    },
     "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
     "@aws-cdk/core:checkSecretUsage": true,
     "@aws-cdk/core:target-partitions": [
